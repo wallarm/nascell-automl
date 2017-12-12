@@ -25,5 +25,5 @@ python3 train.py
 Print parameters:
 ```
 $ cd experiments/
-$ python3 train.py --architecture "5, 32, 2,  5, 3, 64, 2, 3"
+$ python3 train.py --architecture "61, 24, 60,  5, 57, 55, 59, 3"
 ```

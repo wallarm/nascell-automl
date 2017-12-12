@@ -2,6 +2,9 @@
 This code belongs to the "Simple implementation of Neural Architecture Search with Reinforcement Learning
 " blog post.
 
+An original blog post with all the details (step-by-step guide):
+https://lab.wallarm.com/the-first-step-by-step-guide-for-implementing-neural-architecture-search-with-reinforcement-99ade71b3d28
+
 # Requirements
 - Python 3
 - Tensorflow > 1.4

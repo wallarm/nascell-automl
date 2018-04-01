@@ -1,6 +1,7 @@
 import numpy as np
 import tensorflow as tf
 import argparse
+import datetime
 
 from cnn import CNN
 from net_manager import NetManager

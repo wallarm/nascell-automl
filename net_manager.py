@@ -18,7 +18,7 @@ class NetManager():
 
     def get_reward(self, action, step, pre_acc):
         action = [action[0][0][x:x+4] for x in range(0, len(action[0][0]), 4)]
-        cnn_drop_rate = [c[3] for c in action]
+        cnn_drop_rate = [c[3] / 100.0 for c in action]
         with tf.Graph().as_default() as g:
             with g.container('experiment'+str(step)):
                 model = CNN(self.num_input, self.num_classes, action)

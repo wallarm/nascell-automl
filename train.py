@@ -7,7 +7,7 @@ from cnn import CNN
 from net_manager import NetManager
 from reinforce import Reinforce
 
-from tensorflow.examples.tutorials.mnist import input_data
+import input_data
 
 def parse_args():
     desc = "TensorFlow implementation of 'Neural Architecture Search with Reinforcement Learning'"
